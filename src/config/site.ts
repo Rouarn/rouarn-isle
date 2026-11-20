@@ -44,6 +44,7 @@ export const myProjects: ProjectItem[] = [
       "基于 Vue3、Vite、TypeScript、NaiveUI 与 UnoCSS 的清新优雅前台模板。",
     tech: ["Vue3", "Vite", "NaiveUI"],
     icon: "Compass",
+    link: "https://github.com/Rouarn/frontend-template",
   },
   {
     name: "nestjs-template",
@@ -51,12 +52,14 @@ export const myProjects: ProjectItem[] = [
       "基于 NestJS 的现代化后端 API 系统，内置 JWT 认证、文件管理与数据库 ORM。",
     tech: ["NestJS", "TypeORM", "JWT"],
     icon: "Anchor",
+    link: "https://github.com/Rouarn/nestjs-template",
   },
   {
     name: "simple-bookkeeping",
     description: "简单好用的个人记账应用，让每一笔收支都清清楚楚。",
     tech: ["Vue3", "NestJS"],
     icon: "CreditCard",
+    link: "https://github.com/Rouarn/simple-bookkeeping",
   },
   {
     name: "vakao-static-hub",
@@ -67,8 +70,8 @@ export const myProjects: ProjectItem[] = [
   },
   {
     name: "knowl-edge-base",
-    description: "个人知识库，把散落的笔记与灵感归档成林。",
-    tech: ["Vue3"],
+    description: "基于 Obsidian 的个人知识库，沉淀前端学习笔记、运维手册与电子书资料。",
+    tech: ["Obsidian", "Markdown"],
     icon: "Book",
   },
   {
@@ -76,6 +79,7 @@ export const myProjects: ProjectItem[] = [
     description: "图片批量爬取与整理的小工具。",
     tech: ["Node.js"],
     icon: "Image",
+    link: "https://github.com/Rouarn/image-crawler",
   },
 ];
 
